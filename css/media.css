@@ -1,33 +1,387 @@
-/* media query from 1350px to 992px */
+/* media query from 1350px to 1200px */
 
-@media screen and (max-width:1350px) and (min-width:992px)
+@media screen and (max-width:1350px) and (min-width:1200px)
 {
     
 .Top_bar 
 {
-background: linear-gradient(90.01deg, #97D7E1 1.26%, #B4E5D0 99.99%);
-display: flex;
-align-items: center;
-justify-content: space-between;
-padding: 10px 10%;
+ 
+padding: 10px 6%;
 }
 
 .links_btns span 
 {
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 24px;
-    margin-left: 20px;
+     font-size: 18px;
+     margin-left: 20px;
 }
 
-.lang_country
+/* Show_Prices */
+
+
+.Show_Prices a
 {
-    color: #737172;
- 
+    font-size: 16px;
+}
+
+/* links  */
+.links 
+{
+     display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5% ;
+    font-family: "Nunito", sans-serif;
 }
  
 }
 
 
+/* media query from 1200px to 992px */
 
+@media screen and (max-width:1200px) and (min-width:992px)
+{
+    
+.Top_bar 
+{
+ 
+padding: 10px 5%;
+}
+
+.links_btns span 
+{
+     font-size: 16px;
+     margin-left: 20px;
+}
+
+
+/* Show_Prices */
+
+.Show_Prices a
+{
+
+    font-size: 16px;
+}
+
+
+.search_content 
+{
+    width: 55%;
+}
+
+
+ 
+}
+
+
+
+/* media query from 992px to 768px */
+
+@media screen and (max-width:992px) and (min-width:768px)
+{
+    
+.Top_bar 
+{
+ 
+padding: 10px 2%;
+}
+
+.links_btns span 
+{
+     font-size: 14px;
+     margin-left: 15px;
+}
+
+.logo img 
+{
+    width: 80%;
+}
+
+
+/* Show_Prices */
+
+.Show_Prices a
+{
+    font-size: 16px;
+}
+
+
+.search_content 
+{
+    width: 60%;
+}
+
+/* links  */
+.links 
+{
+    padding: 10px 3% ;
+ }
+ 
+ .links span 
+ {
+    font-size: 13px;
+ }
+}
+
+ 
+
+
+/* media query from  768px  to 600 */
+
+@media screen and (min-width:600px) and (max-width:768px)
+{
+    
+.Top_bar 
+{
+ 
+padding: 10px ;
+}
+
+.links_btns span 
+{
+     font-size: 13px;
+     margin-left: 15px;
+}
+
+.logo
+{
+    text-align: end;
+
+}
+.logo img 
+{
+    width: 45%;
+}
+
+
+/* Show_Prices */
+
+.Show_Prices a
+{
+
+    font-size: 14px;
+}
+
+
+.search_content 
+{
+    width: 70%;
+}
+
+/* Most searched products */
+
+.Most_searched
+{
+    justify-content: center;
+     margin-top:30px;
+    margin-right: 5%;
+}
+
+.Most_searched .Most_searched_products
+{
+ font-size: 12px;
+ margin-right: 7px;
+ padding: 5px 17px;
+}
+
+.links 
+{
+    padding: 10px 1% ;
+ }
+
+ .links span 
+ {
+    font-size: 11px;
+ }
+ .links_left span 
+ {
+ margin-left: 5px;
+ }
+
+}
+
+
+
+/* media query from  600px  to 350px */
+
+@media screen and (max-width:600px) and (min-width:350px)
+{
+    
+.Top_bar 
+{
+ display: block;
+padding: 10px 5px;
+}
+
+.links_btns span 
+{
+     font-size: 13px;
+     margin-left: 12px;
+}
+
+.logo
+{
+    text-align: center;
+    margin-top: 15px;
+}
+.logo img 
+{
+    width: 45%;
+}
+
+
+/* Show_Prices */
+
+.Show_Prices a
+{
+
+    font-size: 12px;
+}
+
+
+.search_content 
+{
+    width: 70%;
+}
+
+
+/* Most searched products */
+
+.Most_searched
+{
+    justify-content: start;
+     margin-top:30px;
+    margin-right: 1%;
+}
+
+.Most_searched .Most_searched_products
+{
+ font-size: 12px;
+ margin-right: 7px;
+ padding: 5px ;
+ text-align: center;
+}
+
+ /* links  */
+.links 
+{
+     display: block; 
+     align-items: center;
+    padding: 10px 0% ;
+ }
+
+ .links span 
+ {
+    font-size: 12px;
+ }
+ .links_left 
+ {
+     text-align: center;
+    margin-top: 15px;
+ }
+
+ .links_left span 
+ {
+ margin-left: 2px;
+ }
+}
+ 
+
+
+/* media query from  350px to end*/
+
+@media screen and (max-width:350px) 
+{
+    
+.Top_bar 
+{
+ display: block;
+padding: 10px ;
+}
+
+.links_btns span 
+{
+     font-size: 16px;
+     margin-left: 10px;
+}
+
+.logo
+{
+    text-align: center;
+    margin-top: 15px;
+}
+.logo img 
+{
+    width: 50%;
+}
+
+
+
+/* search */
+.search
+{
+    display: block;
+
+     margin-top:  15px ;
+     text-align: center;
+}
+
+
+/* Show_Prices */
+
+.Show_Prices a
+{
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+
+.search_content 
+{
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+
+/* Most searched products */
+
+.Most_searched
+{
+    justify-content: start;
+     margin-top:30px;
+    margin-right: 1%;
+}
+
+.Most_searched .Most_searched_products
+{
+ font-size: 10px;
+ margin-right: 4px;
+ padding: 5px ;
+ text-align: center;
+}
+
+ /* links  */
+ .links 
+ {
+      display: block; 
+      align-items: center;
+     padding: 10px 0% ;
+  }
+ 
+  .links span 
+  {
+     font-size: 8px;
+  }
+  .links_left 
+  {
+      text-align: center;
+     margin-top: 15px;
+  }
+ 
+  .links_left span 
+  {
+  margin-left: 2px;
+  }
+
+}
  

@@ -163,6 +163,12 @@ border-radius: 20px;
     padding: 10px 5% ;
     font-family: "Nunito", sans-serif;
 }
+
+.links_left span 
+{
+margin-left: 15px;
+}
+
 /* slider  */
   
 
