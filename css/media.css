@@ -1,0 +1,33 @@
+/* media query from 1350px to 992px */
+
+@media screen and (max-width:1350px) and (min-width:992px)
+{
+    
+.Top_bar 
+{
+background: linear-gradient(90.01deg, #97D7E1 1.26%, #B4E5D0 99.99%);
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 10px 10%;
+}
+
+.links_btns span 
+{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 20px;
+}
+
+.lang_country
+{
+    color: #737172;
+ 
+}
+ 
+}
+
+
+
+ 
