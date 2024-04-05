@@ -652,3 +652,102 @@ font-weight: 800;
 letter-spacing: 0.5px;
 text-align: center;
   }
+
+
+  /* Countries */
+
+  .Countries 
+  {
+    background-color: #FAFAFA;
+
+   }
+
+  .Countries_title h3 
+  {
+    font-family: Poppins;
+font-size: 32px;
+font-weight: 600;
+line-height: 22px;
+text-align: right;
+color: #000;
+margin-bottom: 20px;
+padding: 25px;
+  }
+
+  .all_Countries 
+  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+
+
+  /* footer  */
+  footer
+  {
+    background-color: #172437;
+    color: #fff;
+    padding: 10px;
+  }
+
+  .footer_ele 
+  {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    padding: 5% 10px;
+  }
+
+  .footer_links h5
+  {
+    font-family: 'Poppins';
+font-size: 24px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.03em;
+ text-align: center;
+ margin-bottom:15px;
+  }
+
+  .footer_links p
+  {
+ font-family: 'Poppins';
+font-size: 16px;
+font-weight: 300;
+text-align: center;
+color: #dfdede;
+  }
+
+  .footer_links .img 
+  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+  }
+
+  .icon_social svg
+  {
+    margin-right: 10px;
+  }
+  .icon_social 
+  {
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .copy_rights 
+  {
+    text-align: center;
+  }
+
+  .copy_rights p 
+  {
+font-family: 'Poppins';
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+opacity: .4;
+  }
