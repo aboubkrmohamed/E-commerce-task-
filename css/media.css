@@ -242,25 +242,10 @@ Line-height:40px
 /* Search_history */
 
 
-.Search_history ,.Highest_rated
+.Search_history ,.Highest_rated ,.recently_arrived
 {
   margin: 80px 5%;
 }
-
-
-
-.title_Search_history h3 
-{
-  font-weight: 800;
-}
-
-.title_Search_history span 
-{
-  font-weight: 400;
-}
-
-
-
 
 .product h6 
 {
@@ -528,20 +513,20 @@ Line-height:17px
 /* Search_history */
 
 
-.Search_history ,.Highest_rated
+.Search_history ,.Highest_rated ,.recently_arrived
 {
   margin: 80px 5%;
 }
 
 
 
-.title_Search_history h3 
+.title_Search_history h3 ,.title_recently_arrived h3
 {
   font-weight: 800;
   font-size: 22px;
 }
 
-.title_Search_history span 
+.title_Search_history span  ,.title_recently_arrived h3
 {
   font-weight: 400;
   font-size: 15px;
@@ -704,7 +689,7 @@ Line-height:14px
 /* Search_history */
 
 
-.Search_history ,.Highest_rated
+.Search_history ,.Highest_rated ,.recently_arrived
 {
   margin: 80px 5%;
 }
@@ -712,13 +697,13 @@ Line-height:14px
 
 
 
-.title_Search_history h3  
+.title_Search_history h3 
 {
   font-weight: 800;
   font-size: 18px;
 }
 
-.title_Search_history span 
+.title_Search_history span  ,.title_recently_arrived span
 {
   font-weight: 400;
   font-size: 13px;

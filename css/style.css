@@ -328,12 +328,12 @@ opacity: 1 !important;
 
 
   /* title  */
-  .Search_history ,.Highest_rated
+  .Search_history ,.Highest_rated ,.recently_arrived
   {
     margin: 80px 10%;
   }
 
-  .title_Search_history ,.title_Highest_rated
+  .title_Search_history ,.title_Highest_rated ,.title_recently_arrived
   {
     display: flex;
     justify-content: space-between;
@@ -342,12 +342,12 @@ opacity: 1 !important;
 
   }
  
-  .title_Search_history h3 
+  .title_Search_history h3 ,.title_recently_arrived h3
   {
     font-weight: 800;
   }
 
-  .title_Search_history span 
+  .title_Search_history span ,.title_recently_arrived span
   {
     font-weight: 400;
   }
@@ -449,3 +449,79 @@ padding:  10px ;
     text-align: right;
     padding: 0 10px;
   }
+
+
+  /* Highlight on product */
+
+  .Highlight 
+  {
+    margin:0 2%;
+    padding: 10px;
+  }
+
+  .Highest_discounts ,.Top_selling_products
+  {
+    background-color: rgba(246, 246, 246, 1);
+    box-shadow: 0px 0px 4px 0px rgba(55, 71, 79, 0.28);
+    border-radius: 20px    ;
+    text-align: center;
+    
+  }
+
+  .product h5 
+  {
+    text-decoration: line-through;
+    color: rgba(89, 89, 89, 0.9);
+    font-family: "Cairo";
+    font-weight: 400;
+    font-size: 14px;
+  }
+
+  .Highest_discounts_title h3 ,.Top_selling_products_title h3
+  {
+    padding: 10px 0;
+    font-family: 'Cairo';
+    font-size: 30px;
+    font-weight: 500;
+    /* line-height: 16px; */
+    text-align: center;
+    
+  }
+
+
+  .product h4 
+  {
+    font-family: Cairo;
+font-size: 14px;
+font-weight: 400;
+line-height: 26.24px;
+letter-spacing: 0.0025em;
+text-align: center;
+color: linear-gradient(0deg, #595959, #595959),
+linear-gradient(0deg, #595959, #595959);
+
+  }
+
+
+   /* product  Recommended for you  */
+
+   .product_Recommended
+   {
+    margin-top: 20px;
+    background-color: rgba(246, 246, 246, 1);
+    padding: 20px 7%;
+
+   }
+
+   .product_Recommended_title
+   {
+    text-align: center;
+   }
+
+   .product_Recommended_title h3 
+   {
+    font-family: 'Cairo'; 
+    font-size: 30px;
+    font-weight: 500;
+    padding: 10px 0;
+   }
