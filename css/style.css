@@ -15,7 +15,8 @@ top: 0;
 width: 100%;
 overflow-x: hidden;
  }
-
+ 
+ 
  
 /* home section  */
 
@@ -66,7 +67,41 @@ padding: 10px 10%;
      margin-top:  5% ;
 }
 
+/* .Join_suppliers_section */
 
+.Join_suppliers_section
+{
+ display: none;
+   text-align: center;
+  color: #fff;
+  margin: 10px 5%;
+
+}
+
+.Join_suppliers 
+{
+ background-color: #fff;
+ border-radius: 10px;
+ text-align: center;
+ padding: 30px 10px ;
+ margin: 5%;
+
+}
+
+.Join_suppliers h4
+{
+  font-family: 'Cairo';
+font-size: 20px;
+font-weight: 500;
+ color: #000;
+}
+
+.action
+{
+ display: block;
+}
+
+ 
 /* Show_Prices */
 
 .Show_Prices
@@ -121,8 +156,12 @@ width: 100%;
     border: none;
     border-right: 1px solid #fff;
     padding-right: 6px;
-}
+ }
 
+.product_options option 
+{
+  color: #000;
+}
 
 
 
