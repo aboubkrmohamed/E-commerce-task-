@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
@@ -6,7 +6,9 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap'); */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Roboto:wght@700&display=swap');
 body
 {
 margin: 0;
@@ -26,7 +28,7 @@ overflow-x: hidden;
     background-image: url('../img/Rectangle\ 21456.png');
     background-repeat: no-repeat;
     background-size: cover;
-    
+    /* position: relative; */
 }
 
 
@@ -57,7 +59,7 @@ padding: 10px 10%;
 }
  
 
-
+ 
 /* search */
 .search
 {
@@ -67,40 +69,7 @@ padding: 10px 10%;
      margin-top:  5% ;
 }
 
-/* .Join_suppliers_section */
-
-.Join_suppliers_section
-{
- display: none;
-   text-align: center;
-  color: #fff;
-  margin: 10px 5%;
-
-}
-
-.Join_suppliers 
-{
- background-color: #fff;
- border-radius: 10px;
- text-align: center;
- padding: 30px 10px ;
- margin: 5%;
-
-}
-
-.Join_suppliers h4
-{
-  font-family: 'Cairo';
-font-size: 20px;
-font-weight: 500;
- color: #000;
-}
-
-.action
-{
- display: block;
-}
-
+ 
  
 /* Show_Prices */
 
@@ -192,6 +161,204 @@ border-radius: 20px;
 
 }
 
+
+.layout_layer 
+{
+  background-color: red;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+}
+
+/* .Join_suppliers_section */
+
+.Join_suppliers_section
+{
+ display: none;
+   text-align: center;
+  color: #fff;
+  margin: 10px 5%;
+
+}
+
+.Join_suppliers 
+{
+ background-color: #fff;
+ border-radius: 10px;
+ text-align: center;
+ padding: 30px 10px ;
+ margin: 5%;
+
+}
+
+.Join_suppliers h4 ,.Trade_Assurance h4
+{
+  font-family: 'Cairo';
+font-size: 20px;
+font-weight: 500;
+ color: #000;
+}
+
+
+
+/* Trade Assurance */
+
+.Trade_Assurance_section
+{
+  display: none;
+  text-align: center;
+ color: #fff;
+ margin: 10px 7%;
+}
+
+.Trade_Assurance
+{
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  padding: 30px 10px ;
+  margin: 5%;
+  color: #000;
+}
+/* Customer_center_section */
+
+.Customer_center_section
+{
+font-family: 'Poppins';
+margin: 5% 10% 0 ;
+color: #f7f7f7;
+display: none;
+}
+
+.know_us
+{
+  text-align: center;
+ }
+
+.know_us h4
+{
+ font-weight: 700;
+line-height: 24px;
+ 
+}
+.know_us h6 
+{
+  padding-top: 5px;
+ 
+ font-weight: 500;
+line-height: 28px;
+ 
+}
+
+/* solutions section */
+
+.solutions_section
+{
+  margin: 5% 10% 0;
+  display: none;
+}
+
+.solutions_section_content 
+{
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 10%;
+  text-align: center;
+}
+
+.solutions_section_content p 
+{
+  font-family: 'Cairo';
+font-size: 1.4rem;
+font-weight: 500;
+  color: #595959;
+}
+
+.solutions_section_content button 
+{
+  background-color: transparent;
+  color: #BE5409;
+  font-family: 'Poppins';
+font-size: 20px;
+font-weight: 800;
+ text-align: center;
+width: 113px;
+height: 32px;
+ border-radius: 15px;
+border: 1px ;
+border: 1px solid #BE5409
+}
+
+.all_solutions_button 
+{
+  text-align: center;
+}
+.all_solutions_button button 
+{
+  background-color: #FFD715;
+  border: none;
+  font-family: 'Poppins';
+font-size: 22px;
+font-weight: 800;
+ border-radius: 25px;
+text-align: center;
+padding: 13px 60px;
+
+
+}
+
+/**** get app ****/
+.get_app_section
+{
+  margin: 3% 0;
+   text-align: center;
+   display: none;
+}
+
+.get_app_content 
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.get_app_content p 
+{
+  font-family: 'Cairo';
+font-size: 25px;
+font-weight: 400;
+ color: #fff;
+}
+
+.get_app_content h6
+{
+  text-align: start;
+   color: #fff;
+}
+.get_app_content h6>a 
+{
+  color: #fff;
+  font-family: Arial;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
+text-align: right;
+
+}
+.links_img img 
+{
+  display: block;
+  margin-top: 5px;
+}
+.action
+{
+ display: block;
+}
+
+/* links  */
 
 .links 
 {
@@ -790,3 +957,262 @@ font-weight: 400;
 line-height: 24px;
 opacity: .4;
   }
+
+
+
+
+
+
+
+
+
+
+  
+/*nav start*/
+.logo{
+  width: 120px ;
+}
+.navbar{
+  background: linear-gradient(to right, #97D7E1 100%, #b4e5d000 100%);
+}
+.login{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.transparent-bg {
+  background-color: transparent !important;
+}
+.custom-dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-menu {
+  position: relative;
+  width: 300px;
+  left: auto;
+  right: 50%;
+  transform: translateX(50%);
+  margin-top: 10px;
+  border-radius: 45px;
+  padding: 20px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+/*nav end*/
+/*header start*/
+.dropdown-content {
+  margin-bottom: 20px;
+}
+.dropdown-content .input-group {
+  margin-bottom: 5px;
+}
+.dropdown-menu .form-select {
+  width: calc(100% - 20px);
+  border-radius: 10px;
+  height: 38px;
+  text-align: center;
+}
+.btn-save {
+  background-color: yellow;
+  color: #212529;
+  width: 100%;
+  border-radius: 10px;
+}
+.label-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 5px;
+}
+.label-container label {
+  color: black;
+  border: none;
+  font-weight:900;
+  font-size: 19px;
+}
+.custom-container {
+  position: relative;
+  overflow: hidden;
+}
+.background {
+  /* background-image: url('./Assets/header/header1.png'); Replace with your background image URL */
+  background-image: url('../img/Rectangle\ 21456.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1; /* Send the background to the back */
+
+}
+ 
+.content {
+  position: relative;
+  z-index: 1; /* Bring the content to the front */
+  padding: 20px; /* Adjust padding as needed */
+  color: #fff; /* Set text color to contrast with the background */
+  height: 350px;
+}
+.btn1{
+  background-color: yellow;
+  border: none;
+  width: 40px;
+  border-top-right-radius:25px ;
+  border-bottom-right-radius:25px ;
+}
+.content .row a{
+  color: white;
+  text-decoration: underline;
+}
+.dropdown1 button{
+  background-color: transparent; 
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 1px solid white;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius:25px ;
+}
+.content input{
+  border-left: none;
+}
+.buttonsheader {
+  margin-right: 100px;
+  padding: 10px;
+  gap: 20px;
+}
+.buttonsheader button {
+  border-radius: 25px;
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  font-size: 10px; /* Adjust the font size */
+  padding: 8px 16px; /* Adjust the padding */
+}
+@media (max-width: 576px) {
+  .buttonsheader {
+      margin-right: 0;
+  }
+}
+.headbottomright{
+  gap: 20px;
+}
+.content .headbottomright a{
+ text-decoration: none;
+}
+.headbottomleft{
+  gap: 20px;
+}
+.content .headbottomleft a{
+  text-decoration: none;
+}
+.content .dropdown-menu a{
+  color: black;
+  text-decoration: none;
+  display: flex;
+  justify-content: end;
+}
+/* Remove button styles */
+.btn-group.dropup .btn {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+  padding: 0;
+  color: inherit;
+}
+.btn-group.dropup .dropdown-toggle::after {
+  display: none;
+}
+.other {
+  width: 200vh;
+  height: 250px;
+  background-color: rgba(255, 255, 255, 0.03); /* Set background color with transparency */
+  backdrop-filter: blur(50px);
+  margin-right: 35px;
+
+}
+.all{
+  width: 200vh;
+  height: 250px;
+  margin-right: 35px;
+
+}
+.white-box {
+  background-color: white;
+  padding: 35px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 284px ;
+  height: 164px;
+
+}
+
+.white-box img {
+  
+  width: 40px;
+  height: 40px;
+}
+.white-box1 {
+  background-color: white;
+  padding: 35px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 253px ;
+  height:148px;
+
+}
+.other p{
+  font-size: 12px;
+
+}
+.other h6{
+  text-align: end;
+}
+.markaz .col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.gray-box p{
+  background-color: #f2f2f2; /* Gray background color */
+  padding: 10px; /* Padding around the paragraphs */
+  margin-bottom: 10px; /* Spacing between gray boxes */
+  
+}
+.gray-box{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+.gray-box p {
+  font-size: 10px; /* Small font size */
+}
+.all .second p{
+  font-size: 8px;
+  text-align: end;
+}
+.all .second h6{
+ 
+  text-align: end;
+}
+.all .second a{
+  font-size: 9px;
+  color: blue;
+  text-decoration: underline;
+  text-align: end;
+}
+.all .first a{
+  font-size: 12px;
+  color: blue;
+  text-decoration: underline;
+  display: flex;
+  justify-content: start;
+}
+.all .first h6{
+  text-align: end;
+}

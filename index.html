@@ -11,6 +11,7 @@
 
      <!-- style css links -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css"> 
     <link rel="stylesheet" href="css/media.css">
 
@@ -20,192 +21,509 @@
 
    
   
-      <!-- Home section -->
-
-      <div class="home_section">
-
-        <!-- Top bar  -->
-        <div class="Top_bar">
-
-          <div class="links_btns">
-            <span>
-              <i class="fa-regular fa-user"></i>
-              أهلاً بك !  
-              <a href="#"> تسجيل الدخول</a>
-              أو
-              <a href="#">  انشئ حساب </a>
-            </span>
-
-            <span>
-              <i class="fa-regular fa-bell"></i>
-              <i class="fa-solid fa-cart-shopping pe-2"></i>
-            </span>
-
-            <span class="lang_country">
-              <i class="fa-solid fa-chevron-down"></i>
-              <img src="img/openmoji_flag-egypt.png" > /
-              AR /
-              USD
-            </span>
-
-          </div>
-
-          <!--------------->
-
-          <div class="logo">
-            <img src="img/Frame 427319104.png" alt="">
-          </div>
+     <!--NAVBar start -->
+     <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container">
 
 
-        </div>
+          <div class="collapse navbar-collapse justify-content-start" id="navbarNav">
+              <ul class="navbar-nav">
 
-        <!-- search section  -->
-        <div id="search">
-                  <!-- search  -->
-                  <div class="search">
-
-                    <!-- Show_Prices -->
-                    <div class="Show_Prices ms-3">
-                      <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M16.2891 1.25977H17.5V20H2.5V1.25977H3.73047V0H4.98047V1.25977H7.5V0H8.75V1.25977H11.2695V0H12.5195V1.25977H15.0391V0H16.2891V1.25977ZM16.25 18.75V2.50977H3.75V18.75H16.25ZM13.75 5.00977V6.25977H6.25V5.00977H13.75ZM6.25 16.2695V15.0195H13.75V16.2695H6.25ZM6.25 11.2598V10.0098H13.75V11.2598H6.25Z" fill="white"/>
-                        </svg>
-        
-                        <a href="#">  طلب عرض اسعار</a>
+                <li class="nav-item d-flex align-items-center">
+                  <a class="nav-link" href="#" >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0m4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4m-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10s-3.516.68-4.168 1.332c-.678.678-.83 1.418-.832 1.664z"/>
+                    </svg>
+                </a>
+                    <div style="font-size: small;">
+                       أهلاً بك!
+                         <a href="#" style="text-decoration: underline;">تسجيل الدخول</a>
+                       أو
+                      <a href="#" style="text-decoration: underline;"> إنشاء حساب</a>   
                     </div>
-        
-                    <!-- search content -->
-        
-                    <div class="search_content" >
-        
-                      <div class="search_icon">
-        
-                        <i class="fa-solid fa-magnifying-glass"></i>
-        
-                      </div>
-        
-                      <svg class="pe-1 ps-1" width="30" height="27" viewBox="0 0 27 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.375 1H3.625M25.5 20.25V6.25C25.5 5.78587 25.3156 5.34075 24.9874 5.01256C24.6592 4.68437 24.2141 4.5 23.75 4.5H2.75C2.28587 4.5 1.84075 4.68437 1.51256 5.01256C1.18437 5.34075 1 5.78587 1 6.25V20.25C1 20.7141 1.18437 21.1592 1.51256 21.4874C1.84075 21.8156 2.28587 22 2.75 22H23.75C24.2141 22 24.6592 21.8156 24.9874 21.4874C25.3156 21.1592 25.5 20.7141 25.5 20.25ZM16.75 16.75C15.8217 16.75 14.9315 16.3812 14.2751 15.7249C13.6187 15.0685 13.25 14.1783 13.25 13.25C13.25 12.3217 13.6187 11.4315 14.2751 10.7751C14.9315 10.1187 15.8217 9.75 16.75 9.75C17.6782 9.75 18.5685 10.1187 19.2249 10.7751C19.8812 11.4315 20.25 12.3217 20.25 13.25C20.25 14.1783 19.8812 15.0685 19.2249 15.7249C18.5685 16.3812 17.6782 16.75 16.75 16.75Z" stroke="white" stroke-opacity="0.75" stroke-width="1.75"/>
-                        </svg>
-        
-        
-                        <input type="search"  placeholder="الشركات أوالمنتجات ما الذي تبحث عنه ؟">
-        
-                        
+
+                </li>
+
+
+                <li class="nav-item">
+                  <a class="nav-link" href="#">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                          <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2M8 1.918l-.797.161A4 4 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4 4 0 0 0-3.203-3.92zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5 5 0 0 1 13 6c0 .88.32 4.2 1.22 6"/>
+                      </svg>
+                  </a>
+              </li>
+
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart2" viewBox="0 0 16 16">
+                              <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+                          </svg>
+                      </a>
+                  </li>
+
+
+
+
+                  <li class="nav-item">
+                    <div class="custom-dropdown" data-bs-auto-close="outside">
+                        <button class="btn dropdown-toggle" type="button" id="currencyDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            AR/USD
+                        </button>
                       
-                        <div class="p-2">
-                          
-                      <select class="product_options">
-                        <option value="">منتجات</option>
-                        <option value="">منتجات</option>
-                        <option value="">منتجات</option>
-                        <option value="">منتجات</option>
-        
-                      </select>
+                        <div class="dropdown-menu" aria-labelledby="currencyDropdown">
+                           
+                            <div class="dropdown-content">
+                                <div class="label-container">
+                                    <label for="shippingTo" class="input-group-text transparent-bg text-right">الشحن إلي</label>
+                                </div>
+                                <div class="input-group ">
+                                    <select class="form-select ml-2">
+                                        <option value="egypt">مصر</option>
+                                        <option value="saudi">السعودية</option>
+                                        <!-- Add more shipping options as needed -->
+                                    </select>
+                                </div>
+                                <div class="label-container">
+                                    <label for="language" class="input-group-text transparent-bg text-right">اللغة</label>
+                                </div>
+                                <div class="input-group ">
+                                    <select class="form-select ml-2">
+                                        <option value="arabic">العربية</option>
+                                        <option value="english">English</option>
+                                        <!-- Add more language options as needed -->
+                                    </select>
+                                </div>
+                                <div class="label-container">
+                                    <label for="currency" class="input-group-text transparent-bg text-right">العملة</label>
+                                </div>
+                                <div class="input-group ">
+                                    <select class="form-select ml-2">
+                                        <option value="usd">الدولار الامريكي / USD</option>
+                                        <option value="egp">الجنيه المصري / EGP</option>
+                                        <option value="sar">الريال السعودي / SAR</option>
+                                        <!-- Add more currency options as needed -->
+                                    </select>
+                                </div>
+                                <button class="btn btn-save">حفظ</button>
+                            </div>
                         </div>
-                        
                     </div>
-        
-        
-                  </div>
-        
-        
-                <!-- Most searched products -->
-                  
-                <div class="Most_searched ">
-                  <span> منتجات اكثر بحثا :  </span>
-        
-                  <span class="Most_searched_products">مولد كهربى</span>
-                  <span class="Most_searched_products">  فوانيس رمضان </span>
-                   <span class="Most_searched_products">  شنط نسائية</span>
-                  <span class="Most_searched_products">ايفون 15 برو ماكس</span>
-         
-                </div>
-        </div>
+                </li>
+                  <!-- Add more icon links as needed -->
+              </ul>
+          </div>
 
-        <!-- Join suppliers section -->
+          <a class="navbar-brand" href="#">
+            <img src="img/logo.png" class="logo" alt="Your Logo" height="60" >
+        </a>
 
-        <div class="Join_suppliers_section">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+          
+      </div>
+  </nav>
+  <!--NAVBar end -->
 
- 
-            <div class="row">
 
-              <div class="col-md-4">
-                
-            <div class="Join_suppliers">
-              <img src="img/image 51.png">
-              <h4 class="pt-3">برنامج شركاء ساس</h4>
+<!--header start -->
+<div class="container-fluid custom-container">
+<div class="background"></div>
+<div class="content">
+    <div class="container">
+         <!-- search section  -->
+         <div id="search">
+          <!-- search  -->
+          <div class="search">
+
+            <!-- Show_Prices -->
+            <div class="Show_Prices ms-3">
+              <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M16.2891 1.25977H17.5V20H2.5V1.25977H3.73047V0H4.98047V1.25977H7.5V0H8.75V1.25977H11.2695V0H12.5195V1.25977H15.0391V0H16.2891V1.25977ZM16.25 18.75V2.50977H3.75V18.75H16.25ZM13.75 5.00977V6.25977H6.25V5.00977H13.75ZM6.25 16.2695V15.0195H13.75V16.2695H6.25ZM6.25 11.2598V10.0098H13.75V11.2598H6.25Z" fill="white"/>
+                </svg>
+
+                <a href="#">  طلب عرض اسعار</a>
             </div>
 
+            <!-- search content -->
+
+            <div class="search_content" >
+
+              <div class="search_icon">
+
+                <i class="fa-solid fa-magnifying-glass"></i>
+
               </div>
 
-              <div class="col-md-4">
+              <svg class="pe-1 ps-1" width="30" height="27" viewBox="0 0 27 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.375 1H3.625M25.5 20.25V6.25C25.5 5.78587 25.3156 5.34075 24.9874 5.01256C24.6592 4.68437 24.2141 4.5 23.75 4.5H2.75C2.28587 4.5 1.84075 4.68437 1.51256 5.01256C1.18437 5.34075 1 5.78587 1 6.25V20.25C1 20.7141 1.18437 21.1592 1.51256 21.4874C1.84075 21.8156 2.28587 22 2.75 22H23.75C24.2141 22 24.6592 21.8156 24.9874 21.4874C25.3156 21.1592 25.5 20.7141 25.5 20.25ZM16.75 16.75C15.8217 16.75 14.9315 16.3812 14.2751 15.7249C13.6187 15.0685 13.25 14.1783 13.25 13.25C13.25 12.3217 13.6187 11.4315 14.2751 10.7751C14.9315 10.1187 15.8217 9.75 16.75 9.75C17.6782 9.75 18.5685 10.1187 19.2249 10.7751C19.8812 11.4315 20.25 12.3217 20.25 13.25C20.25 14.1783 19.8812 15.0685 19.2249 15.7249C18.5685 16.3812 17.6782 16.75 16.75 16.75Z" stroke="white" stroke-opacity="0.75" stroke-width="1.75"/>
+                </svg>
+
+
+                <input type="search"  placeholder="الشركات أوالمنتجات ما الذي تبحث عنه ؟">
+
                 
-                <div class="Join_suppliers">
-                  <img src="img/image 52.png">
-                  <h4 class="pt-3"> الموردون المقيمون داخل المملكة العربية السعودية</h4>
+              
+                <div class="p-2">
+                  
+              <select class="product_options">
+                <option value="">منتجات</option>
+                <option value="">منتجات</option>
+                <option value="">منتجات</option>
+                <option value="">منتجات</option>
+
+              </select>
                 </div>
-    
+                
+            </div>
+
+
+          </div>
+
+
+        <!-- Most searched products -->
+          
+        <div class="Most_searched ">
+          <span> منتجات اكثر بحثا :  </span>
+
+          <span class="Most_searched_products">مولد كهربى</span>
+          <span class="Most_searched_products">  فوانيس رمضان </span>
+           <span class="Most_searched_products">  شنط نسائية</span>
+          <span class="Most_searched_products">ايفون 15 برو ماكس</span>
+ 
+        </div>
+</div>
+
+
+        <div class="row" style="margin-top: 100px;">
+          
+
+
+            <div class="headbottomright col-6 d-flex justify-content-start" style="font-size: 14px;">
+
+              <div class="btn-group dropup">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    جميع الفئات
+                </button>
+                <div class="all dropdown-menu dropdown-menu-up">
+                  <div class="container">
+                    <div class="row ">
+                      <div class="col-4 first">
+                        <div class="row">
+                            <div class="col-12">
+                                <h6>منتجات اعلي تصنيفا</h6>
+                                <img src="#" alt="Image 1">
+                                <img src="#" alt="Image 2">
+                                <img src="#" alt="Image 3">
+                                <a href="#">جميع المنتجات</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <h6>موردون اعلي تصنيفا</h6>
+                                <img src="#" alt="Image 4">
+                                <img src="#" alt="Image 5">
+                                <img src="#" alt="Image 6">
+                                <a href="#">جميع الموردين</a>
+                            </div>
+                        </div>
+                    </div>
+                       
+                        <div class="col-4 second">
+                         <h6>الغذاء و الزراعة</h6>
+                         <p>الالات والمعدات الزراعية</p>
+                         <p>الزراعه</p>
+                         <p>الماكولات</p>
+                         <p>المشروبات</p>
+                         <p>آلات ومعدات صناعة الأغذية والمشروبات والتبغ</p>
+                         <p>الثروة الحيوانيه والاسماك</p>
+                         <a href="#">جميع الفئات</a>
+                        </div>
+                        
+                        <div class="col-4 ">
+                          <div class="row flex-column">
+                              <div class="gray-box row d-flex">
+                                  <p>الغذاء</p>
+                                  <p>مقاولات</p>
+                                  <p>الطباعة و النشر</p>
+                              </div>
+                              <div class="gray-box row d-flex">
+                                  <p>الكترونيات</p>
+                                  <p>الازياء و الاكسسورات</p>
+                                  <p>السيارات و النقل</p>
+                              </div>
+                              <div class="gray-box row d-flex">
+                                  <p>الكمبيوتر و تكنولوجيا المعلومات</p>
+                                  <p>الالات صناعية</p>
+                                  <p>خدمات الاعمال</p>
+                              </div>
+                              <div class="gray-box row d-flex">
+                                  <p>الهدايا و الالعاب</p>
+                                  <p>الصحة و العناية بالطفل</p>
+                                  <p>عدد و ادوات المنزل</p>
+                              </div>
+                              <div class="gray-box row d-flex">
+                                  <p>المواد الخام</p>
+                                  <p>الرياضة و الترفيه</p>
+                                  <p>مستلزمات الدراسة و التعليم</p>
+                              </div>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+                
+
+
+                </div>
+            </div>
+
+            <div class="btn-group dropup">
+              <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  لوجيستيات
+              </button>
+              <div class="other dropdown-menu dropdown-menu-up">
+                  <a class="dropdown-item" href="#">Option 1</a>
+                  <a class="dropdown-item" href="#">Option 2</a>
+              </div>
+          </div>
+
+                <div class="btn-group dropup">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        ضمان التجارة
+                    </button>
+                    <div class="other dropdown-menu dropdown-menu-up">
+                      <div class="container">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col text-center ">
+                                <div class="white-box1">
+                                    <p>     الشحن و الخدمات اللوجيستية</p>
+                                </div>
+                            </div>
+                            <div class="col text-center ">
+                              <div class="white-box1">
+                                  <p>  سياسة استرداد الاموال   </p>
+                              </div>
+                          </div>
+                            <div class="col text-center">
+                                <div class="white-box1">
+                                    <p>  حماية ما بعد البيع   </p>
+                                </div>
+                            </div>
+                            <div class="col text-center">
+                                <div class="white-box1">
+                                    <p>  عمليات دفع أمنة و سهلة</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row  justify-content-center ">
+                          <button type="button" style="background-color: transparent; border: 2px solid #FFD715; color: #FFD715;border-radius: 15px; width: 252px;height: 48px;">
+                            عرض المزيد
+                          </button>
+
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+            <div class="headbottomleft col-6 d-flex justify-content-end" style="font-size: 14px;">
+
+              <div class="btn-group dropup">
+
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      مركز المشتري
+                  </button>
+                  <div class="other dropdown-menu dropdown-menu-up">
+                    <div class="markaz container ">
+                      <div class="row" style="color: white;">
+                        <!-- Grid column -->
+                       <div class="col">
+                         <!-- Links -->
+                         <h6 class="text-uppercase fw-bold mb-4">
+                        الموارد
+                         </h6>
+                         <p>
+                           <a href="#!" class="text-reset"> المدونات</a>
+                         </p>
+                         <p>
+                           <a href="#!" class="text-reset"> تقارير حول الصناعة</a>
+                         </p>
+                         <p>
+                           <a href="#!" class="text-reset">مركز المساعدة</a>
+                         </p>
+                       </div>
+                       <!-- Grid column -->
+               
+                       <!-- Grid column -->
+                       <div class="col">
+                         <!-- Links -->
+                         <h6 class="text-uppercase fw-bold mb-4">
+                         خدمات التجارة
+                         </h6>
+                         <p>
+                           <a href="#!" class="text-reset">ضمان التجارة</a>
+                         </p>
+                         <p>
+                           <a href="#!" class="text-reset">  الحدمات اللوجيستية  </a>
+                         </p>
+                         <p>
+                           <a href="#!" class="text-reset">خطاب الاعتماد</a>
+                         </p>
+                         <p>
+                           <a href="#!" class="text-reset">خدمات مراقبة المنتج والتفتيش عليه</a>
+                         </p>
+                         <p>
+                           <a href="#!" class="text-reset">برنامج الامتثال الضريبى</a>
+                         </p>
+                       </div>
+                       <!-- Grid column -->
+               
+                     <!-- Grid column -->
+                       <div class="col">
+                         <!-- Links -->
+                         <h6 class="text-uppercase fw-bold mb-4">
+                            ساس 
+                         </h6>
+                         <p>
+                           <a href="#!" class="text-reset"> كيف تعمل عملية الشراء</a>
+                         </p>
+                         <p>
+                           <a href="#!" class="text-reset"> برنامج العضوية</a>
+                         </p>
+                       </div>
+                       <!-- Grid column -->
+             
+             
+                       <!-- Grid column -->
+                       <div class="col">
+                         <!-- Links -->
+                         <h6 class="text-uppercase fw-bold mb-4">
+                      تعرف علينا
+                         </h6>
+                         <p>
+                           <a href="#!" class="text-reset">   حول ساس</a>
+                         </p>
+                         <p>
+                           <a href="#!" class="text-reset">  مسؤلية الشركة</a>
+                         </p>
+                         <p>
+                           <a href="#!" class="text-reset"> مركز الاخبار  </a>
+                         </p>
+                         <p>
+                           <a href="#!" class="text-reset">  وظائف </a>
+                         </p>
+
+                       </div>
+                       <!-- Grid column -->
+                     </div>
+                    </div>
+                   
+  
                   </div>
 
-                  
-                  <div class="col-md-4">
-                
-                    <div class="Join_suppliers">
-                      <img src="img/image 53.png">
-                      <h4 class="pt-3"> الموردون المقيمون خارج  المملكة العربية السعودية</h4>
+
+              </div>
+              <div class="btn-group dropup">
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      احصل علي التطبيق
+                  </button>
+                  <div class="other dropdown-menu dropdown-menu-up">
+                    <div class="container d-flex justify-content-center align-items-center">
+                      <div class="row d-flex justify-content-center align-items-center mt-5">
+                        <div class="col d-flex flex-column align-items-center justify-content-center">
+                            <img src="Assets/footer/googleplay.png" alt="" style="width: 156px;">
+                            <img src="./Assets/footer/appstore.png" alt="" style="width: 150px;">
+                        </div>
+                        <div class="col d-flex flex-column justify-content-end" style="color: white; text-align: end; text-wrap: nowrap;">
+                            <h5>احصل على التطبيق ووفر 3 دولار للمستخدمين الجدد</h5>
+                            <a href="#" style="color: white;text-decoration: underline;">معرفة المزيد</a>
+                        </div>
                     </div>
-        
+                    </div>
+                  </div>
+              </div>
+              <div class="btn-group dropup">
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      حلول ساس
+                  </button>
+                  <div class="other dropdown-menu dropdown-menu-up">
+                    <div class="container">
+                      <div class="row justify-content-center align-items-center">
+                          <div class="col text-center " >
+                              <div class="white-box">
+                                <p style="font-size: 15px;">تاكد من استمرارية سلسة القيمة الخاصة بك من خلال قاعدة بيانات الموردين العالمية الخاصة بك</p>
+                                 
+                                 <button type="button" style="background-color: transparent; border: 2px solid #BE5409; color: #BE5409;border-radius: 15px;width: 80px;font-size: 12px;">
+                                   المزيد
+                                </button>
+                              </div>
+                          </div>
+                          <div class="col text-center">
+                              <div class="white-box">
+                        <p style="font-size: 15px;">الوصول الى عملاء من خلال حلول التسويق وذكاء المبيعات القوية</p>
+                        <button type="button" style="background-color: transparent; border: 2px solid #BE5409; color: #BE5409;border-radius: 15px; width: 80px;font-size: 12px;">
+                          المزيد
+                       </button>
+                              </div>
+                          </div>
+                          <div class="col text-center">
+                              <div class="white-box">
+                                <p style="font-size: 15px;">اجذب عملاء وطنيا ودوليا من كل انحاء العالم بزيادة ظهورك على الانترنت</p>
+                                  <button type="button" style="background-color: transparent; border: 2px solid #BE5409; color: #BE5409;border-radius: 15px; width: 80px;font-size: 12px;">
+                                    المزيد
+                                 </button>
+                              </div>
+                          </div>
                       </div>
-         
-          </div>
 
-        </div>
-
-        <!------------->
-
-        <hr style="background-color: gray;  margin: 5% ; border: 0.3px solid #73717269">
- 
-
-        <div class="links">
-
-          <div class="d-flex justify-content-center align-items-center " style="font-weight: 600;">
-
-            <div class="ms-3">
-            
-              <svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1.09961 1.3H7.99961V8.2H1.09961V1.3ZM12.5996 1.3H19.4996V8.2H12.5996V1.3ZM1.09961 12.8H7.99961V19.7H1.09961V12.8ZM12.5996 16.25C12.5996 17.165 12.9631 18.0425 13.6101 18.6895C14.2571 19.3365 15.1346 19.7 16.0496 19.7C16.9646 19.7 17.8421 19.3365 18.4891 18.6895C19.1361 18.0425 19.4996 17.165 19.4996 16.25C19.4996 15.335 19.1361 14.4575 18.4891 13.8105C17.8421 13.1635 16.9646 12.8 16.0496 12.8C15.1346 12.8 14.2571 13.1635 13.6101 13.8105C12.9631 14.4575 12.5996 15.335 12.5996 16.25Z" stroke="white" stroke-width="1.53333" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                
-                <span>جميع الفئات</span>            
-    
+                      <div class="row justify-content-center">
+                        <button type="button" style="background-color: #ffd715;  color:black;border-radius: 15px; width: 230px;height: 40px;">
+                          المزيد
+                       </button>
+                      </div>
+                  </div>
+                  </div>
               </div>
-    
-              <div class="ms-3" id="Logistics">
-                <svg width="16" height="17" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M11.0027 2.74999V1.73749C11.002 1.4692 10.895 1.21212 10.7053 1.02241C10.5156 0.832694 10.2585 0.72577 9.99023 0.724991H6.61523C6.34694 0.72577 6.08986 0.832694 5.90015 1.02241C5.71044 1.21212 5.60351 1.4692 5.60273 1.73749V2.74999M15.0527 8.52968V4.77499C15.0512 4.23841 14.8373 3.72424 14.4579 3.34482C14.0785 2.9654 13.5643 2.75155 13.0277 2.74999H3.57773C3.04115 2.75155 2.52699 2.9654 2.14756 3.34482C1.76814 3.72424 1.55429 4.23841 1.55273 4.77499V8.65624M8.30273 6.44562V15.4252" stroke="white" stroke-width="1.35" stroke-linecap="round" stroke-linejoin="round"/>
-                  </svg>
-    
-                  <span>لوجيستيات</span>
+              <div class="btn-group dropup">
+                  <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      انضم الي الموردين
+                  </button>
+                  <div class="other dropdown-menu dropdown-menu-up">
+                    <div class="container">
+                      <div class="row justify-content-center align-items-center">
+                          <div class="col text-center ">
+                              <div class="white-box">
+                                  <img src="./Assets/انضم للموردين/3.png" alt="Image 1" class="img-fluid">
+                                  <p>الموردون المقيمون خارج المملكة العربية السعودية</p>
+                              </div>
+                          </div>
+                          <div class="col text-center">
+                              <div class="white-box">
+                                  <img src="./Assets/انضم للموردين/2.png" alt="Image 2" class="img-fluid">
+                                  <p>الموردون المقيمون داخل المملكة العربية السعودية</p>
+                              </div>
+                          </div>
+                          <div class="col text-center">
+                              <div class="white-box">
+                                  <img src="/Assets/انضم للموردين/1.png" alt="Image 3" class="img-fluid">
+                                  <p>برنامج شركاء ساس</p>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
               </div>
-    
-              <span> ضمان التجارة </span>
           </div>
-
-
-          <div class="links_left">
-            <span class="Join_suppliers_link">انضم الى الموردين</span>
-            <span>حلول ساس</span>
-            <span>احصل على التطبيق</span>
-            <span>مركز المشترى</span>
-          </div>
-
-
         </div>
+    </div>
+</div>
+</div>
+<!--header end -->
 
 
-      </div>
-
-        <!------------------->
 
         <!-- Slider for Sale -->
  
@@ -1492,9 +1810,9 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.6.0.min.js"></script>
     <script src="js/all.min.js"></script>
-    <script src="js/wow.min.js"></script>
-    <!-- <script src="js/slick.min.js"></script> -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+ 
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
  
 
     <script src="js/main.js"></script>

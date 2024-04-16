@@ -253,6 +253,13 @@ font-size: 14px;
 font-weight: 800;
 }
 
+/* .Customer_center_section */
+
+.Customer_center_section
+{
+ margin: 2% 5%;
+ }
+
 }
 
  
@@ -372,6 +379,12 @@ font-Size :20px;
 Line-height:30px
 }
 
+/* .Customer_center_section */
+
+.Customer_center_section
+{
+ margin: 2% 5%;
+ }
 }
 
 
