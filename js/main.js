@@ -1,70 +1,80 @@
-// $(document).ready(function() {
+
+$(document).ready(function() {
  
 
             
-//     $('.Join_suppliers_link').click(function() {
+    $('.product_link').click(function() {
 
-//         $('.Join_suppliers_section').toggleClass('action');
-//         $('.Trade_Assurance_section').hide()
+        $('.product_section').addClass('action');
+        $('.product_link').addClass('action');
+        
 
-//        $('#search').hide()
+        $('.Manufacturers_section').removeClass('action');
+        $('.Manufacturers_link').removeClass('action');
+
+    });
 
 
-       
 
-      
+            
+    $('.Manufacturers_link').click(function() {
 
-     
+        $('.product_section').removeClass('action');
+        $('.product_link').removeClass('action');
 
-//     });
+        $('.Manufacturers_section').addClass('action');
+        $('.Manufacturers_link').addClass('action');
 
+    });
+
+
+           
+    $('.Most_popular').click(function() {
+
+        $('.best_seller').removeClass('active_Highest_rated_products_link');
+        $('.Best_rated').removeClass('active_Highest_rated_products_link');
+        $('.Most_popular').addClass('active_Highest_rated_products_link');
+
+        $('.best_seller_section').removeClass('show');
+        $('.Best_rated_section').removeClass('show');
+        $('.Most_popular_section').addClass('show');
+
+        
+    });
+
+
+               
+    $('.best_seller').click(function() {
+
+        $('.best_seller').addClass('active_Highest_rated_products_link');
+        $('.Most_popular').removeClass('active_Highest_rated_products_link');
+        $('.Best_rated').removeClass('active_Highest_rated_products_link');
+
+        $('.Most_popular_section').removeClass('show');
+        $('.Best_rated_section').removeClass('show');
+        $('.best_seller_section').addClass('show');
+
+        
+    });
+
+
+    $('.Best_rated').click(function() {
+
+        $('.best_seller').removeClass('active_Highest_rated_products_link');
+        $('.Most_popular').removeClass('active_Highest_rated_products_link');
+        $('.Best_rated').addClass('active_Highest_rated_products_link');
+
+        $('.Most_popular_section').removeClass('show');
+        $('.best_seller_section').removeClass('show');
+        $('.Best_rated_section').addClass('show');
+
+        
+    });
 
 
     
-// });
+});
  
 
  
  
-// $('.Trade_Assurance_link').click(function() {
-
-//     $('.Trade_Assurance_section').toggleClass('action');
-//     $('.Join_suppliers_section').hide()
-//    $('#search').hide()
-
-
-
- 
-
-// });
-
-
-$(document).ready(function() {
-
-$('.Join_suppliers_link').click(function(){
-    $('.Join_suppliers_section').toggle();
-    $('#search').toggle()
-})
-
-
-$('.Trade_Assurance_link').click(function(){
-    $('.Trade_Assurance_section').toggle();
-    $('#search').hide()
-})
-
-$('.Customer_center_link').click(function(){
-    $('.Customer_center_section').toggle();
-    $('#search').hide()
-})
-
-$('.solutions_link').click(function(){
-    $('.solutions_section').toggle();
-    $('#search').hide()
-})
-
-$('.get_app_link').click(function(){
-    $('.get_app_section').toggle();
-    $('#search').hide()
-})
-
-})
