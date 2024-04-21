@@ -9,6 +9,18 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap'); */
  
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Roboto:wght@700&display=swap');
+
+::-webkit-scrollbar{
+  width: 10px;
+  background: linear-gradient(180deg, rgba(2, 77, 124, 0.32) 0%, rgba(40, 102, 235, 0) 100%);
+  
+}
+::-webkit-scrollbar-thumb{
+  background-color: #fff;
+
+  border-radius: 25px;
+}
+
 body
 {
 margin: 0;
@@ -294,6 +306,9 @@ border: 1px solid #BE5409
 {
   text-align: center;
 }
+
+
+
 .all_solutions_button button 
 {
   background-color: #FFD715;
@@ -1173,9 +1188,10 @@ opacity: .4;
 }
 .all{
   width: 200vh;
-  height: 250px;
+  height: 280px;
   margin-right: 35px;
-
+  overflow-y: scroll;
+ overscroll-behavior: initial;
 }
 .white-box {
   background-color: white;
@@ -1215,34 +1231,73 @@ opacity: .4;
   flex-direction: column;
   align-items: center;
 }
-.gray-box p{
-  background-color: #f2f2f2; /* Gray background color */
-  padding: 10px; /* Padding around the paragraphs */
-  margin-bottom: 10px; /* Spacing between gray boxes */
-  
-}
+ 
 .gray-box{
   display: flex;
-  justify-content: space-evenly;
+  /* justify-content: space-evenly; */
 
 }
-.gray-box p {
-  font-size: 10px; /* Small font size */
+.gray-box-item p {
+  font-size: 12px; 
+  margin-top: 12px;
+  font-family: 'Roboto';
+font-size: 16px;
+font-weight: 400;
+line-height: 14px;
+text-align: center;
 }
-.all .second p{
-  font-size: 8px;
-  text-align: end;
-}
-.all .second h6{
+
+.gray-box-item
+{
+  background-color: #f2f2f2;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  width: 30%;
+height: 100px;
+ border-radius: 6px;
  
-  text-align: end;
 }
-.all .second a{
-  font-size: 9px;
-  color: blue;
-  text-decoration: underline;
-  text-align: end;
+
+.second
+{
+  text-align: start;
 }
+
+.all .second p{
+
+font-family: 'Arial';
+font-size: 16px;
+font-weight: 400;
+}
+
+.all .second h6{
+text-align: start; 
+font-family: 'Roboto';
+font-size: 22px;
+font-weight: 900;
+ }
+
+
+ .second_links 
+ {
+  color: #BE5409;
+
+ }
+
+ .second_links span 
+ {
+  font-family: 'Arial';
+font-size: 18px;
+font-weight: 400;
+line-height: 22px;
+ }
+ 
+
+ 
 .all .first a{
   font-size: 12px;
   color: blue;
