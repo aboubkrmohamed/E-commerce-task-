@@ -1043,7 +1043,7 @@ opacity: .4;
   border-radius: 45px;
   padding: 20px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
-  /* display: none; */
+  display: none;
   position: absolute;
   top: 90%;
   left: 50%; 
