@@ -1,0 +1,227 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@700&display=swap'); */
+ 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body
+{
+margin: 0;
+padding: 0;
+top: 0;
+width: 100%;
+overflow-x: hidden;
+ }
+  
+ ::-webkit-scrollbar{
+  width: 10px;
+  background-color: #fff;
+
+}
+::-webkit-scrollbar-thumb{
+
+  background-color: #100E3D;
+  border-radius: 25px;
+}
+ 
+ .dashboard_controller
+ {
+  background-color: #100E3D;
+  padding: 10px;
+  height: 100vh;
+  overflow-y: scroll;
+
+ }
+
+ .dashboard_controller:hover
+ {
+  margin-left: 40%;
+  text-align: center;
+
+  span 
+  {
+    display: none;
+  }
+ }
+
+
+ .dashboard_links_item 
+ {
+  padding: 10px;
+  margin-top: 10px;
+  text-align: start;
+  display: flex;
+  align-items: center;
+   border-radius: 8px;
+ }
+ .dashboard_links_item span
+ {
+  color: #fff;
+  margin:0 8px;
+  font-family: Cairo;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 26.24px;
+ }
+
+ .dashboard_links_item svg
+ {
+  color: #0a3
+ }
+
+
+ .active
+ {
+  background: linear-gradient(92.84deg, #4940FF 6.29%, #4940FF 100%);
+
+ }
+
+
+ .setting_logout 
+ {
+  margin-top: 15px;
+  text-align: center;
+ }
+ .setting_logout span
+ {
+  color: #fff;
+  font-family: 'Cairo';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.001em;
+ }
+
+
+ /******/
+
+ .search_section 
+ {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin:0 10px;
+ }
+
+ .search_section input 
+ {
+  border: none;
+  outline: none;
+ }
+
+
+ /* main_section */
+
+ .main_section 
+ {
+  background-color: #f3f6fb;
+  /* background-color: red; */
+  padding: 20px;
+  text-align: start;
+ }
+
+
+ .last_history
+ {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: fit-content;
+  padding: 2px 10px ;
+  border-radius: 5px;
+  }
+ .last_history button 
+ {
+  background-color: transparent;
+  border: none;
+  font-family: 'Cairo';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 29.98px;
+  letter-spacing: 0.0125em;
+  text-align: center;
+  margin: 6px;
+  color:  #595959;
+  padding: 2px 5px;
+ }
+
+ .last_history .btn_active 
+ {
+  background: #59595921;
+  color: #000;
+ }
+
+ /* statistics */
+
+ 
+ .statistics_items
+ {
+  background-color: #fff;
+  margin: 10px;
+  padding: 5px 20px;
+  border-radius: 10px;
+ }
+
+ .statistics_items span 
+ {
+  color: #121212;
+  font-family: 'Nunito';
+  font-size: 18.8px;
+  font-weight: 500;
+  line-height: 25.64px;
+ }
+  .statistics_items h3
+  {
+    font-family: 'Barlow';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 20px;
+    text-align: left;
+
+  }
+
+  .statistics_items p 
+  {
+  font-family: 'Nunito', Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 19.1px;
+  color: #606060;
+
+  }
+
+  .statistics_items p>span 
+  {
+    color: #00B69B;
+    font-weight: 600;
+  }
+
+  /* Statistics_graphics */
+
+  .Statistics_graphics 
+  {
+    text-align: center;
+  }
+
+  /* Product_stock */
+
+  .Product_stock 
+  {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 15px;
+  }
+
+ .table_section
+ {
+  border: 1.5px solid #D5D5D5;
+  border-radius: 15px;
+ }
