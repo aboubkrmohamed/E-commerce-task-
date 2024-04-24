@@ -17,6 +17,7 @@ margin: 0;
 padding: 0;
 top: 0;
 width: 100%;
+
 overflow-x: hidden;
  }
   
@@ -31,6 +32,11 @@ overflow-x: hidden;
   border-radius: 25px;
 }
  
+.dashboardActionAction 
+{
+  transition: all .5s;
+  transform: rotate(180deg);
+}
  .dashboard_controller
  {
   background-color: #100E3D;
@@ -39,17 +45,7 @@ overflow-x: hidden;
   overflow-y: scroll;
 
  }
-
- .dashboard_controller:hover
- {
-  margin-left: 40%;
-  text-align: center;
-
-  span 
-  {
-    display: none;
-  }
- }
+ 
 
 
  .dashboard_links_item 
@@ -75,6 +71,7 @@ overflow-x: hidden;
  {
   color: #0a3
  }
+
 
 
  .active
