@@ -225,13 +225,13 @@
               
                  <div class="mt-4">
                   <label> اسم المنتج </label>
-                  <input type="email" name="email" class="form-control form-custom" id="form-floating-2"  required="required">
+                  <input type="text" name="text" class="form-control form-custom" id="form-floating-2"  required="required">
                   <!-- <label for="form-floating-2" style="text-align: center;">Email address</label> -->
               </div>
     
               <div class="mt-4">
                 <label> الرابط الثابت  </label>
-                <input type="email" name="email" class="form-control form-custom" id="form-floating-2"  required="required">
+                <input type="url" name="url" class="form-control form-custom" id="form-floating-2"  required="required">
                 <!-- <label for="form-floating-2" style="text-align: center;">Email address</label> -->
             </div>
   
@@ -261,9 +261,9 @@
         <div class="row">
 
           <!-- add images -->
-          
+
           <div class="col-md-4 ">
-            <div class="mt-5 p-3 add_img" style="cursor: pointer; box-shadow: 0px 1px 4px 0px #00000040;  ">
+            <div class="mt-5 p-3 add_img" >
           
               <div class="ms-4">
                  <!-- Icon or button to trigger file input -->
@@ -289,34 +289,112 @@
           </div>
 
           <div class="col-md-4">
-            <div class="mt-4 d-flex justify-content-space-around align-items-center">
+            <div class="mt-5 add_url_video p-3">
           
               <div>
-                <input type="file" id="fileUpload" name="fileUpload" accept="image/*, video/*">
+                <svg width="45" height="31" viewBox="0 0 45 31" fill="none" xmlns="http://www.w3.org/2000/svg" class="add_url_video_link">
+                  <path d="M0 5.5C0 2.74219 2.24219 0.5 5 0.5H25C27.7578 0.5 30 2.74219 30 5.5V25.5C30 28.2578 27.7578 30.5 25 30.5H5C2.24219 30.5 0 28.2578 0 25.5V5.5ZM43.6797 3.29688C44.4922 3.73438 45 4.57812 45 5.5V25.5C45 26.4219 44.4922 27.2656 43.6797 27.7031C42.8672 28.1406 41.8828 28.0938 41.1094 27.5781L33.6094 22.5781L32.5 21.8359V9.16406L33.6094 8.42187L41.1094 3.42188C41.875 2.91406 42.8594 2.85938 43.6797 3.29688Z" fill="#293088"/>
+                  </svg>             
+
               </div>
     
               <div >
-                <h5>اضافة صورة</h5>
-                <p>اضافة الصور الخاصة بالمنتج</p>
+                <h5> اضافة فيديو  </h5>
+                <p> انشاء فيديو بنقرة واحدة  </p>
               </div>
       
             </div>
+
+            <div class="dom">
+              <i class="fa-solid fa-xmark closeDom" ></i>
+
+              <div class="dom_content">
+                   <input type="url" class="form-control" placeholder="Url Video">
+                   <button type="submit" class="btn btn-danger">submit</button>
+              </div>
+            </div>
+
+
           </div>
 
-          <div class="col-md-4">
-            <div class="mt-4 d-flex justify-content-space-around align-items-center">
+          <div class="col-md-4 ">
+
+            <div class="mt-5 p-3 add_img" >
           
-              <div>
-                <input type="file" id="fileUpload" name="fileUpload" accept="image/*, video/*">
+              <div class="ms-4">
+                  <svg width="44" height="43" viewBox="0 0 44 43" fill="none" xmlns="http://www.w3.org/2000/svg" id="logos_link">
+                    <path d="M40.5 10.5312H32.0625C32.0625 7.84593 30.9958 5.2706 29.097 3.37179C27.1982 1.47299 24.6228 0.40625 21.9375 0.40625C19.2522 0.40625 16.6768 1.47299 14.778 3.37179C12.8792 5.2706 11.8125 7.84593 11.8125 10.5312H3.375C2.47989 10.5312 1.62145 10.8868 0.988514 11.5198C0.355579 12.1527 0 13.0111 0 13.9062V39.2188C0 40.1139 0.355579 40.9723 0.988514 41.6052C1.62145 42.2382 2.47989 42.5938 3.375 42.5938H40.5C41.3951 42.5938 42.2535 42.2382 42.8865 41.6052C43.5194 40.9723 43.875 40.1139 43.875 39.2188V13.9062C43.875 13.0111 43.5194 12.1527 42.8865 11.5198C42.2535 10.8868 41.3951 10.5312 40.5 10.5312ZM15.1875 18.9688C15.1875 19.4163 15.0097 19.8455 14.6932 20.162C14.3768 20.4785 13.9476 20.6562 13.5 20.6562C13.0524 20.6562 12.6232 20.4785 12.3068 20.162C11.9903 19.8455 11.8125 19.4163 11.8125 18.9688V15.5938C11.8125 15.1462 11.9903 14.717 12.3068 14.4005C12.6232 14.084 13.0524 13.9062 13.5 13.9062C13.9476 13.9062 14.3768 14.084 14.6932 14.4005C15.0097 14.717 15.1875 15.1462 15.1875 15.5938V18.9688ZM21.9375 3.78125C23.7277 3.78125 25.4446 4.49241 26.7105 5.75828C27.9763 7.02415 28.6875 8.74104 28.6875 10.5312H15.1875C15.1875 8.74104 15.8987 7.02415 17.1645 5.75828C18.4304 4.49241 20.1473 3.78125 21.9375 3.78125ZM32.0625 18.9688C32.0625 19.4163 31.8847 19.8455 31.5682 20.162C31.2518 20.4785 30.8226 20.6562 30.375 20.6562C29.9274 20.6562 29.4982 20.4785 29.1818 20.162C28.8653 19.8455 28.6875 19.4163 28.6875 18.9688V15.5938C28.6875 15.1462 28.8653 14.717 29.1818 14.4005C29.4982 14.084 29.9274 13.9062 30.375 13.9062C30.8226 13.9062 31.2518 14.084 31.5682 14.4005C31.8847 14.717 32.0625 15.1462 32.0625 15.5938V18.9688Z" fill="#293088"/>
+                    </svg>            
+                  
               </div>
     
               <div >
-                <h5>اضافة صورة</h5>
-                <p>اضافة الصور الخاصة بالمنتج</p>
+                <h5> العلامة التجارية</h5>
+                <p>   البحث عن العلامات التجارية</p>
               </div>
       
             </div>
+
+            <div class="logos_section p-3">
+
+              <div class="close_section_logo">
+                <i class="fa-solid fa-xmark logo_icon_close" ></i>
+              </div>
+
+              <div class="row">
+
+
+                <div class="col-md-4 mt-2">
+                  <img src="img/image 51.png" alt="">
+                </div>
+  
+                
+                <div class="col-md-4 mt-2">
+                  <img src="img/image 52.png" alt="">
+                </div>
+                
+                
+                <div class="col-md-4 mt-2">
+                  <img src="img/image 53.png" alt="">
+                </div>
+
+                <div class="col-md-4 mt-2">
+                  <img src="img/image 51.png" alt="">
+                </div>
+  
+                
+                <div class="col-md-4 mt-2">
+                  <img src="img/image 52.png" alt="">
+                </div>
+                
+                
+                <div class="col-md-4 mt-2">
+                  <img src="img/image 53.png" alt="">
+                </div>
+
+                <div class="col-md-4 mt-2">
+                  <img src="img/image 51.png" alt="">
+                </div>
+  
+                
+                <div class="col-md-4 mt-2">
+                  <img src="img/image 52.png" alt="">
+                </div>
+                
+                
+                <div class="col-md-4 mt-2">
+                  <img src="img/image 53.png" alt="">
+                </div>
+
+
+              </div>
+
+             
+              
+            </div>
+
           </div>
+
 
         </div>
        
@@ -332,6 +410,8 @@
   
         </div>
 
+ 
+ 
       </div>
 
     </div>

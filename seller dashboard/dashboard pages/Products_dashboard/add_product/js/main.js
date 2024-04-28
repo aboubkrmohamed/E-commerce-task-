@@ -1,16 +1,32 @@
 $(document).ready(function() {
 
     // Open modal
-    $('#dashboardAction').click(function() {
-
-      $('#dashboardAction').toggleClass('dashboardActionAction');
-      $('#dashboard_controller').toggleClass('col-sm-2');
-      $('#dashboard_controller').toggleClass('col-sm-1');
-      $('#main_section').toggleClass('col-sm-11');
-      $('.dashboard_links_item_span').toggle();
+    $('.add_url_video_link').click(function() {
  
+      $('.dom').show();
+  
     });
 
+    // close model 
+    $('.closeDom').click(function() {
+ 
+      $('.dom').hide(); 
+    });
+
+
+
+
+    //logo Section 
+
+    $('#logos_link').click(function() {
+ 
+      $('.logos_section').show(); 
+    });
+
+    $('.close_section_logo').click(function () {
+
+      $(".logos_section").hide()
+    })
 
   });
   
