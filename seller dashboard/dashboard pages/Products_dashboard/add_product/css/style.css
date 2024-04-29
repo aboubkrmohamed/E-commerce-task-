@@ -119,7 +119,6 @@ overflow-x: hidden;
  .main_section 
  {
   background-color: #f3f6fb;
-  /* background-color: red; */
   padding: 20px;
   text-align: start;
  }
@@ -257,4 +256,119 @@ top:5px;
   color: #100E3D;
   font-weight: 800;
   cursor: pointer;
+}
+
+/* Taxes */
+
+.Taxes ,.Store_Management
+{
+  background-color: #fff;
+  padding: 20px;
+  text-align: start;
+ }
+
+ .Taxes label 
+ {
+  font-family: 'Cairo';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+ }
+
+
+ .Taxes h6
+ {
+  font-family: 'Cairo';
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.0015em;
+  color: #121212;
+ }
+
+ .checkbox_inpt
+ {
+  font-family: 'Cairo';
+font-size: 16px;
+font-weight: 400;
+line-height: 29.98px;
+ margin-top: 5px; 
+ }
+
+ .price
+ {
+  display: flex;
+  border: 1px solid #9393938A; 
+  border-right: none;
+   border-radius: 10px 10px 10px 10px;
+ }
+
+ .price span 
+ {
+   padding: 10px;
+   border-radius: 0 10px 10px 0;
+   border: 2px solid #9393938A;
+   border-top:none ; 
+   border-bottom:none ; 
+
+  font-family: 'Cairo';
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 20px;
+ }
+
+ .sale_link  
+ {
+  font-family: 'Cairo';
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.0015em;
+  color: #015B93;
+  text-decoration: underline  !important;
+ }
+
+ /* Store_Management */
+
+ .Store_Management_title h4
+ {
+  font-family: 'Cairo';
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 20px;
+  color: #121212;
+ 
+ }
+
+ .Inventory_status h6
+ {
+  font-family: 'Cairo';
+font-size: 18px;
+font-weight: 400;
+line-height: 20px;
+color: #121212;
+opacity: .9;
+ }
+
+ .Inventory_status input
+{
+  opacity: 0.9;
+}
+
+.Inventory_status span 
+{
+ font-family: 'Cairo';
+font-size: 16px;
+font-weight: 400;
+line-height: 29.98px;
+margin-right: 2px;
+}
+
+.shipping h3 
+{
+  font-family: 'Cairo';
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 20px;
+
 }
