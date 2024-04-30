@@ -260,7 +260,7 @@ top:5px;
 
 /* Taxes */
 
-.Taxes ,.Store_Management
+.Taxes ,.Store_Management,.Additional_features
 {
   background-color: #fff;
   padding: 20px;
@@ -330,7 +330,7 @@ line-height: 29.98px;
 
  /* Store_Management */
 
- .Store_Management_title h4
+ .Store_Management_title h4  .Additional_features_title h4
  {
   font-family: 'Cairo';
   font-size: 22px;
@@ -371,4 +371,35 @@ margin-right: 2px;
   font-weight: 400;
   line-height: 20px;
 
+}
+
+.shipping label 
+{
+font-family: 'Cairo';
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+color: #121212;
+}
+
+.shipping span
+{
+  font-family: 'Cairo';
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0.0015em;
+}
+
+.save_data_btn 
+{
+  border: none;
+  background: linear-gradient(89.3deg, #4940FF 0.6%, #2C2699 99.4%);
+  padding: 15px 40px ;
+  border-radius: 10px ;
+  font-family: 'Cairo';
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 26.24px;
+  color: #fff;
 }
