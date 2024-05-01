@@ -8,5 +8,26 @@ $(document).ready(function() {
     });
 
 
+
+        // Open modal
+        $('.azhr_btn').click(function() {
+
+          $('.navbar_res_items').addClass('azhr');
+    
+        });
+    
+        
+
+        // Open modal
+        $('.close_btn').click(function() {
+
+          $('.navbar_res_items').removeClass('azhr');
+    
+        });
+    
+        
+
+
+
   });
   

@@ -28,8 +28,13 @@ padding: 0;
 top: 0;
 width: 100%;
 overflow-x: hidden;
+position: relative;
  }
  
+ button 
+ {
+  cursor: pointer;
+ }
  
  
 /* home section  */
@@ -848,34 +853,34 @@ line-height: 22px;
    .details p
    {
     font-family: 'Cairo';
-font-size: 14px;
-font-weight: 400;
-line-height: 18px;
-letter-spacing: 0.0025em;
-text-align: right;
-color:#595959;
-padding: 15px 5px 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.0025em;
+    text-align: right;
+    color:#595959;
+    padding: 15px 5px 0;
 
    }
 
   .details h5 
   {
   font-family: 'Cairo';
-font-size: 16px;
-font-weight: 700;
-line-height: 29.98px;
-letter-spacing: 0.0025em;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 29.98px;
+    letter-spacing: 0.0025em;
 
   }
 
   .details h6 
   {
     font-family: 'Cairo';
-font-size: 14px;
-font-weight: 400;
-line-height: 16px;
-letter-spacing: 0.0025em;
-color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.0025em;
+    color: #595959;
   }
 
 
@@ -894,21 +899,17 @@ color: #595959;
     width: 328px;
     height: 48px;
     border-radius: 5px;
-
-
- 
-    
   }
 
   .button_show_more button>a 
   {
-text-decoration: none;
-color: #000;
-font-family:' Poppins';
-font-size: 22px;
-font-weight: 800;
-letter-spacing: 0.5px;
-text-align: center;
+    text-decoration: none;
+    color: #000;
+    font-family:' Poppins';
+    font-size: 22px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+    text-align: center;
   }
 
 
@@ -923,13 +924,13 @@ text-align: center;
   .Countries_title h3 
   {
     font-family: Poppins;
-font-size: 32px;
-font-weight: 600;
-line-height: 22px;
-text-align: right;
-color: #000;
-margin-bottom: 20px;
-padding: 25px;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: right;
+    color: #000;
+    margin-bottom: 20px;
+    padding: 25px;
   }
 
   .all_Countries 
@@ -960,21 +961,21 @@ padding: 25px;
   .footer_links h5
   {
     font-family: 'Poppins';
-font-size: 24px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0.03em;
- text-align: center;
- margin-bottom:15px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    margin-bottom:15px;
   }
 
   .footer_links p
   {
- font-family: 'Poppins';
-font-size: 16px;
-font-weight: 300;
-text-align: center;
-color: #dfdede;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    color: #dfdede;
   }
 
   .footer_links .img 
@@ -1003,17 +1004,12 @@ color: #dfdede;
 
   .copy_rights p 
   {
-font-family: 'Poppins';
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-opacity: .4;
+    font-family: 'Poppins';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    opacity: .4;
   }
-
-
-
-
-
 
 
 
@@ -1075,11 +1071,7 @@ opacity: .4;
   width: 100%;
   border-radius: 10px;
 }
-/* .label-container {
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 5px;
-} */
+ 
 .label-container label {
   color: black;
   border: none;
@@ -1311,4 +1303,60 @@ line-height: 22px;
 }
 .all .first h6{
   text-align: end;
+}
+
+
+
+.nav_res 
+{
+  display: none;
+}
+
+
+ 
+@media  (max-width:992px)
+ {
+
+  
+
+  .navbar 
+  {
+    display: none;
+  }
+
+  
+  
+.nav_res
+{
+  background: linear-gradient(90.01deg, #97D7E1 1.26%, #B4E5D0 99.99%);
+  display: block;
+}
+
+
+.navbar_res_items
+{
+background: linear-gradient(90.01deg, #97D7E1 1.26%, #B4E5D0 99.99%);
+position: absolute;
+top: 0;
+/* left: 0px; */
+width: 50%;
+right: 100%;
+bottom: 0;
+ z-index: 999999;
+ transition: all .4s;
+}
+
+
+.azhr 
+{
+  /* display: block; */
+  right: 50%;
+}
+
+.close 
+{
+  
+   width: 100%;
+}
+
 }
