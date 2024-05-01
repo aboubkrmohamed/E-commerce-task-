@@ -11,7 +11,7 @@ $(document).ready(function() {
 
         // Open modal
         $('.azhr_btn').click(function() {
-
+          $('.navbar_res_items').show()
           $('.navbar_res_items').addClass('azhr');
     
         });
@@ -20,6 +20,8 @@ $(document).ready(function() {
 
         // Open modal
         $('.close_btn').click(function() {
+
+          $('.navbar_res_items').hide()
 
           $('.navbar_res_items').removeClass('azhr');
     

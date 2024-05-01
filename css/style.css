@@ -1338,12 +1338,12 @@ line-height: 22px;
 background: linear-gradient(90.01deg, #97D7E1 1.26%, #B4E5D0 99.99%);
 position: absolute;
 top: 0;
-/* left: 0px; */
 width: 50%;
 right: 100%;
 bottom: 0;
- z-index: 999999;
- transition: all .4s;
+z-index: 999999;
+transition: all .4s;
+display: none;
 }
 
 
