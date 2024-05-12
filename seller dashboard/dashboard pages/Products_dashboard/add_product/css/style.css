@@ -57,7 +57,7 @@ overflow-x: hidden;
   align-items: center;
    border-radius: 8px;
  }
- .dashboard_links_item span
+ .dashboard_links_item span>a
  {
   color: #fff;
   margin:0 8px;
@@ -65,7 +65,10 @@ overflow-x: hidden;
   font-size: 14px;
   font-weight: 500;
   line-height: 26.24px;
+  text-decoration: none;
  }
+
+ 
 
  .dashboard_links_item svg
  {

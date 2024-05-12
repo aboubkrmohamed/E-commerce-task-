@@ -57,13 +57,14 @@ overflow-x: hidden;
   align-items: center;
    border-radius: 8px;
  }
- .dashboard_links_item span
+ .dashboard_links_item span>a
  {
   color: #fff;
   margin:0 8px;
   font-family: Cairo;
   font-size: 14px;
   font-weight: 500;
+  text-decoration: none;
   line-height: 26.24px;
  }
 
@@ -86,8 +87,21 @@ overflow-x: hidden;
   margin-top: 15px;
   text-align: center;
  }
+
  .setting_logout span
  {
+  text-decoration: none;
+  color: #fff;
+  font-family: 'Cairo';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0.001em;
+ }
+
+ .setting_logout span>a
+ {
+  text-decoration: none;
   color: #fff;
   font-family: 'Cairo';
   font-size: 14px;
